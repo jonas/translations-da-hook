@@ -1,0 +1,15 @@
+Until the first version of the Danish translation file gets merged,
+two changes needs to be made to Liferay in order to use this hook.
+
+ 1. First, you need to add da_DK to the locales property in your
+    portal-ext.properties. For example:
+
+	locales=en_GB,fr_FR,da_DK
+
+ 2. Optionally, you should define a Danish I18n servlet mapping, somewhere
+    Liferay's web.xml file:
+
+	<servlet-mapping>
+		<servlet-name>I18n Servlet</servlet-name>
+		<url-pattern>/da/*</url-pattern>
+	</servlet-mapping>
