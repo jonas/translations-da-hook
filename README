@@ -1,3 +1,6 @@
+Installation instructions
+-------------------------
+
 Until the first version of the Danish translation file gets merged,
 two changes needs to be made to Liferay in order to use this hook.
 
@@ -13,3 +16,12 @@ two changes needs to be made to Liferay in order to use this hook.
 		<servlet-name>I18n Servlet</servlet-name>
 		<url-pattern>/da/*</url-pattern>
 	</servlet-mapping>
+
+Online tools
+------------
+
+ * http://www.klid.dk/dansk/ordlister/ordliste.html
+ * http://www.microsoft.com/Language/en-US/Search.aspx?langID=da-dk
+ * http://translate.google.ca/#en|da
+ * http://en.da.open-tran.eu/
+ * http://www.retskrivning.dk/ro/ro.htm
